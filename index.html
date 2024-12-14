@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- CSS -->
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <div class="calculator">
+        <input type="text" class="form-control" id="screen" readonly>
+        <div class="row mt-2">
+            <button class="btn btn-secondary col-3" data-value="7">7</button>
+            <button class="btn btn-secondary col-3" data-value="8">8</button>
+            <button class="btn btn-secondary col-3" data-value="9">9</button>
+            <button class="btn btn-warning col-3" data-value="/"><i class="fa-solid fa-divide"></i></button>
+        </div>
+        <div class="row mt-2">
+            <button class="btn btn-secondary col-3" data-value="4">4</button>
+            <button class="btn btn-secondary col-3" data-value="5">5</button>
+            <button class="btn btn-secondary col-3" data-value="6">6</button>
+            <button class="btn btn-warning col-3" data-value="*"><i class="fa-solid fa-times"></i></button>
+        </div>
+        <div class="row mt-2">
+            <button class="btn btn-secondary col-3" data-value="1">1</button>
+            <button class="btn btn-secondary col-3" data-value="2">2</button>
+            <button class="btn btn-secondary col-3" data-value="3">3</button>
+            <button class="btn btn-warning col-3" data-value="-"><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div class="row mt-2">
+            <button class="btn btn-secondary col-3" data-value="0">0</button>
+            <button class="btn btn-secondary col-3" data-value=".">.</button>
+            <button class="btn btn-danger col-3" id="clear">C</button>
+            <button class="btn btn-warning col-3" data-value="+"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="row mt-2">
+            <button class="btn btn-success col-12" id="equals"><i class="fa-solid fa-equals"></i></button>
+        </div>
+    </div>
+    
+
+    
+
+    
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
